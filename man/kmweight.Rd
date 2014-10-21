@@ -22,7 +22,7 @@ Hasinur Rahaman Khan and Ewart Shaw
 }
 
 \examples{
-#Using simdata function. Censoring level is 50\%.
+#Using simdata function and considering censoring level at 50\%.
 data<-simdata(n = 100,lambda = 2.04) 
 kmw<-kmweight(data$Y, data$delta)
 kmw

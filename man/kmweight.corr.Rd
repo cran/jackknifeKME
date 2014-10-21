@@ -3,7 +3,7 @@
 \title{
 Compute corrected Kaplan-Meier weights for jackknifing}
 \description{
-These are the adjusted Kaplan-Meier weights. The adjustment is made to the original Kaplan-Meier weights for being used in jackknifing to estimate Kaplan-Meier estimators. The adjustment is ocurred if and only if \code{delta_(n-1)=0} and \code{delta_(n)=1}. For details see Stute and Wang (1994), Khan and Shaw (2012b). 
+These are the adjusted Kaplan-Meier weights. The adjustment is made to the original Kaplan-Meier weights for being used in jackknifing to estimate Kaplan-Meier estimators. The adjustment is ocurred if and only if \code{delta_(n-1)=0} and \code{delta_(n)=1}. For details see Stute and Wang (1994), Khan and Shaw (2013b). 
 }
 \usage{
 kmweight.corr(Y, delta)
@@ -17,7 +17,7 @@ The corrected Kaplan-Meier weights are obtainable if the underlying censoring is
 \item{kmwts}{corrected Kaplan-Meier weights}
 }
 \references{
-Khan, M. H. R. and Shaw, J. E. H. (2012b). Robust bias estimation for Kaplan-Meier survival estimator with jackknifing (Preprint).
+Khan and Shaw. (2013b). Robust bias estimation for Kaplan-Meier Survival Estimator with Jackknifing. CRiSM working paper, Department of Statistics, University of Warwick, UK, No. 13-09. Also available in \url{http://arxiv.org/abs/1312.4058}.
 
 Stute, W. and Wang, J. (1994). The jackknife estimate of a Kaplan-Meier integral. Biometrika 81, 602-606.
 }

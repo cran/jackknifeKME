@@ -16,7 +16,7 @@ This type of data is required to compute the actual and modified jackknife estim
 \item{Cper}{censoring percentage. Different censoring percentages are obtained for different values of \code{lambda} of censoring time distribution}
 }
 \references{
-Khan, M. H. R. and Shaw, J. E. H. (2012b). Robust bias estimation for Kaplan-Meier survival estimator with jackknifing (Preprint).
+Khan and Shaw. (2013b). Robust bias estimation for Kaplan-Meier Survival Estimator with Jackknifing. CRiSM working paper, Department of Statistics, University of Warwick, UK, No. 13-09. Also available in \url{http://arxiv.org/abs/1312.4058}.
 }
 \author{Hasinur Rahaman Khan and Ewart Shaw
 }
