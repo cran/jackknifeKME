@@ -3,7 +3,7 @@
 \title{
 Compute Kaplan-Meier weights}
 \description{
-The Kaplan-Meier weights are the mass attached to the uncensored observations. The weights are used to account for censoring into the calculation for many methods. For example, in the Stute's weighted least squares method (Stute and Wang, 1994)) that is applied for censored data. 
+Provide Kaplan-Meier weights for Stute's weighted least squares method.
 }
 \usage{
 kmweight(Y, delta)
@@ -12,6 +12,9 @@ kmweight(Y, delta)
   \item{Y}{survival time.}
   \item{delta}{status}
 }
+
+\details{Kaplan-Meier weights are the mass attached to the uncensored observations. The weights are used to account for censoring into the calculation for many methods. For example, in the Stute's weighted least squares method (Stute and Wang, 1994)) that is applied for censored data.}
+
 \value{
   \item{kmwts}{Kaplan-Meier weights}
 }
